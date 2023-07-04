@@ -37,6 +37,20 @@ Please, if you use STONNE, please cite us:
   pages =        {},
 }
 ```
+## Docker 실행하고 해야할 것
+도커 실행
+```bash
+docker run -it stonnesimulator/stonne-simulators
+```
+anaconda 설치를 위한 커맨드
+```bash
+apt update
+apt install wget
+wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
+bash Anaconda3-2023.03-1-Linux-x86_64.sh
+export PATH=~/anaconda3/bin:$PATH
+conda
+```
 
 ## Docker image
 
