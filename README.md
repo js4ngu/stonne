@@ -50,6 +50,8 @@ wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash Anaconda3-2023.03-1-Linux-x86_64.sh
 export PATH=~/anaconda3/bin:$PATH
 conda
+conda create --name stonne python=3.8
+source activate stonne
 ```
 
 ## Docker image
