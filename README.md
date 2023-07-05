@@ -42,14 +42,20 @@ Please, if you use STONNE, please cite us:
 ```bash
 docker run -it stonnesimulator/stonne-simulators
 ```
-anaconda 설치를 위한 커맨드
+wget 패키지 설치
 ```bash
 apt update
 apt install wget
+```
+아나콘다 설치
+```bash
 wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash Anaconda3-2023.03-1-Linux-x86_64.sh
 export PATH=~/anaconda3/bin:$PATH
 conda
+```
+아나콘다 실행
+```bash
 conda create --name stonne python=3.8
 source activate stonne
 ```
